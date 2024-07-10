@@ -1,5 +1,5 @@
 import { v4 as uuid } from 'uuid';
-import { IProduct } from '../Interfaces/IProduct';
+import { IInputList, IProduct } from '../Interfaces/index';
 
 export const productList: IProduct[] = [
     {
@@ -124,3 +124,31 @@ export const productList: IProduct[] = [
     }
 
 ];
+
+export const fromInputList:IInputList[] = [
+    {
+        id:"title",
+        lable:"title",
+        name:"Product Title",
+        type:"text",
+    },
+    {
+        id:"description",
+        lable:"description",
+        name:"Product Description",
+        type:"text",
+    },
+    {
+        id:"img",
+        lable:"imageURL",
+        name:"Product Image URL",
+        type:"text",
+    },
+    {
+        id:"price",
+        lable:"price",
+        name:"Product Price",
+        type:"text",
+    }
+ 
+]

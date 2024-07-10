@@ -1,6 +1,6 @@
 import Color from '../UI/Color';
 import Button from '../UI/Button';
-import { IProduct } from '../Interfaces/IProduct';
+import { IProduct } from '../Interfaces';
 import { txtSlicer } from '../Utilis/Function';
 
 interface IProps {
