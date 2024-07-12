@@ -1,27 +1,26 @@
-import Color from '../UI/Color';
+
 import Button from '../UI/Button';
 import { IProduct } from '../Interfaces';
 import { txtSlicer } from '../Utilis/Function';
+import FormColer from '../UI/FormColer';
+
+
 
 interface IProps {
     product: IProduct;
 }
 
 const ProductCard = ({product}: IProps) => {
-    const {category, description, imgURL, price, title} = product
+    const {category, description, imgURL, price, color, title} = product
+
+    const renderFormColor = color.map(color => (<FormColer color={color} key={color} />))
+        
     return (    
         <div className="p-2 border border-gray-300 rounded-md rounded-mg space-y-3 space-x-3 ">   
             <img src={imgURL} alt='product img' className="rounded-lg"/>
             <h2 className="font-bold text-lg">{title}</h2>
-            <p className=" text-xs font-medium opacity-50">{txtSlicer(description)}</p>
-            <div className="flex items-center space-x-2">
-                <Color className="bg-red-600"></Color>
-                <Color className="bg-blue-600"></Color>
-                <Color className="bg-purple-600"></Color>
-                <Color className="bg-lime-600"></Color>
-                <Color className="bg-black"></Color>
-
-            </div>
+            <p className=" text-xs font-medium opacity-50 overflow-x-hidden">{txtSlicer(description)}</p>
+            <div className="flex items-center space-x-2 flex-wrap">{renderFormColor}</div>
             <div className="flex items-center justify-between">
                 <span className="font-bold">{price}</span>
                 <img src={category.imgURL} alt='product img' className="rounded-full w-14 h-14 object-contain"/>  

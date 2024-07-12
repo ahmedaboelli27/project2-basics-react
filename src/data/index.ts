@@ -20,7 +20,7 @@ export const productList: IProduct[] = [
         description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum nulla cumque nihil hic nesciunt, iure incidunt iusto in excepturi vero eum dolores quos neque quis harum pariatur sint, perspiciatis eius.",
         imgURL: "https://media.drive.com.au/obj/tx_q:50,rs:auto:1920:1080:1/driveau/upload/cms/uploads/yumbvjpqiukmlg0q9cuw",
         price: "$350,000", 
-        color: ["#FFF0F5", "#FFD700", "#C0C0C0", "#00000"], 
+        color: ["#191970", "#FFD700", "#C71585", "#00000"], 
         category: {
             name: "cars",
             imgURL: "https://media.drive.com.au/obj/tx_q:50,rs:auto:1920:1080:1/driveau/upload/cms/uploads/yumbvjpqiukmlg0q9cuw",
@@ -32,7 +32,7 @@ export const productList: IProduct[] = [
         description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum nulla cumque nihil hic nesciunt, iure incidunt iusto in excepturi vero eum dolores quos neque quis harum pariatur sint, perspiciatis eius.",
         imgURL: "https://media.cdn-jaguarlandrover.com/api/v2/images/93414/w/1000",
         price: "$650,000", 
-        color: ["#FF0000", "#4169E1", "#C0C0C0", "#00000"], 
+        color: ["#EEE8AA", "#4169E1", "#C0C0C0", "#FFA500"], 
         category: {
             name: "cars",
             imgURL: "https://media.cdn-jaguarlandrover.com/api/v2/images/93414/w/1000",
@@ -44,7 +44,7 @@ export const productList: IProduct[] = [
         description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum nulla cumque nihil hic nesciunt, iure incidunt iusto in excepturi vero eum dolores quos neque quis harum pariatur sint, perspiciatis eius.",
         imgURL: "https://images.pexels.com/photos/2036544/pexels-photo-2036544.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         price: "$250,000", 
-        color: ["#FF0000", "#4169E1", "#C0C0C0", "#00000"], 
+        color: ["#FF0000", "#FAEBD7", "#A52A2A", "#FFFF00"], 
         category: {
             name: "cars",
             imgURL: "https://images.pexels.com/photos/2036544/pexels-photo-2036544.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -56,7 +56,7 @@ export const productList: IProduct[] = [
         description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum nulla cumque nihil hic nesciunt, iure incidunt iusto in excepturi vero eum dolores quos neque quis harum pariatur sint, perspiciatis eius.",
         imgURL: "https://images.pexels.com/photos/2676096/pexels-photo-2676096.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         price: "$300,000", 
-        color: ["#FF0000", "#4169E1", "#C0C0C0", "#00000"], 
+        color: ["#FF0000", "#4169E1", "#C0C0C0", "#FF7F50"], 
         category: {
             name: "cars",
             imgURL: "https://images.pexels.com/photos/2676096/pexels-photo-2676096.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -68,7 +68,7 @@ export const productList: IProduct[] = [
         description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum nulla cumque nihil hic nesciunt, iure incidunt iusto in excepturi vero eum dolores quos neque quis harum pariatur sint, perspiciatis eius.",
         imgURL: "https://images.pexels.com/photos/2920064/pexels-photo-2920064.jpeg?auto=compress&cs=tinysrgb&w=600",
         price: "$280,000", 
-        color: ["#FF0000", "#4169E1", "#C0C0C0", "#00000"], 
+        color: ["#006400", "#4169E1", "#C0C0C0", "#00000"], 
         category: {
             name: "cars",
             imgURL: "https://images.pexels.com/photos/2920064/pexels-photo-2920064.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -92,7 +92,7 @@ export const productList: IProduct[] = [
         description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum nulla cumque nihil hic nesciunt, iure incidunt iusto in excepturi vero eum dolores quos neque quis harum pariatur sint, perspiciatis eius.",
         imgURL: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKlprKai2klxGDjLtinXUh9DDif-LUwF3jYxpF3wLGgtoqCMzd3fpd6-LhaWAkYULtT6M&usqp=CAU",
         price: "$550,000", 
-        color: ["#FF0000", "#4169E1", "#C0C0C0", "#00000"], 
+        color: ["#9400D3", "#4169E1", "#8FBC8F", "#FF1493"], 
         category: {
             name: "cars",
             imgURL: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKlprKai2klxGDjLtinXUh9DDif-LUwF3jYxpF3wLGgtoqCMzd3fpd6-LhaWAkYULtT6M&usqp=CAU",
@@ -116,7 +116,7 @@ export const productList: IProduct[] = [
         description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum nulla cumque nihil hic nesciunt, iure incidunt iusto in excepturi vero eum dolores quos neque quis harum pariatur sint, perspiciatis eius.",
         imgURL: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZC3n1liD7RKVf5u1836Ym_VCQ1eeVEZrMrA&s",
         price: "$500,000", 
-        color: ["#FF0000", "#4169E1", "#C0C0C0", "#00000"], 
+        color: ["##DAA520", "#4169E1", "#008000", "#F0E68C"], 
         category: {
             name: "cars",
             imgURL: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZC3n1liD7RKVf5u1836Ym_VCQ1eeVEZrMrA&s",
@@ -128,27 +128,40 @@ export const productList: IProduct[] = [
 export const fromInputList:IInputList[] = [
     {
         id:"title",
-        lable:"title",
-        name:"Product Title",
+        lable:"Product Title",
+        name:"title",
         type:"text",
     },
     {
         id:"description",
-        lable:"description",
-        name:"Product Description",
+        lable:"Product Description",
+        name:"description",
         type:"text",
     },
     {
         id:"img",
-        lable:"imageURL",
-        name:"Product Image URL",
+        lable:"Product Image URL",
+        name:"imgURL",
         type:"text",
     },
     {
         id:"price",
-        lable:"price",
-        name:"Product Price",
+        lable:"Product Price",
+        name:"price",
         type:"text",
     }
  
+]
+
+export const Colors: string[] = [
+    "#0000FF",
+    "#000000",
+    "#5F9EA0",
+    "#DEB887",
+    "#6495ED",
+    "#B8860B",
+    "#00008B",
+    "#8B008B",
+    "#FF1493",
+    "#4B0082"
 ]

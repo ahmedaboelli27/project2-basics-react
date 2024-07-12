@@ -10,3 +10,10 @@ export interface IProduct {
         imgURL: string;
     }
 }
+
+export interface IInputList {
+    id:string,
+    lable:string,
+    name:'title' | 'description' | 'price' | 'imgURL',
+    type:string,
+}
