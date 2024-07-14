@@ -4,5 +4,11 @@
 
 body {
     overflow-x: hidden;
+    transition: all;
 }
 
+.bg-modal {
+    background-color: rgba(0, 0, 0, 0.4); 
+    backdrop-filter: blur(8px); 
+  }
+  
